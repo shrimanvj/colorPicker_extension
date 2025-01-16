@@ -20,7 +20,7 @@ const showColor = () => {
     document.querySelectorAll(".color").forEach(li => {
         li.addEventListener("click", e => copyColor(e.currentTarget.lastElementChild));
     });
-}
+} 
 showColor();
 const activateEyeDropper = () => {
     document.body.style.display = "none";
